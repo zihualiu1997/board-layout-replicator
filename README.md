@@ -2,7 +2,7 @@
 
 把喜欢的参考展板拆成提示词，再用自己的建筑底图生成同类版式的完整展板。
 
-**当前版本：v0.2.0 · 2026-10-19**
+**当前版本：v0.2.1 · 2026-10-19 · [Unlicense](LICENSE)**
 
 ## 工作方式
 
@@ -12,7 +12,7 @@ Skill 先拆解参考展板的内容、构图、视觉风格，并把关键布�
 
 ## 下载与安装
 
-[下载 v0.2.0 安装包](downloads/board-layout-replicator-v0.2.0.zip)
+[下载 v0.2.1 安装包](downloads/board-layout-replicator-v0.2.1.zip)
 
 解压后，将整个 `board-layout-replicator` 文件夹放到项目的 `.agents/skills/` 下：
 
@@ -26,7 +26,7 @@ Skill 先拆解参考展板的内容、构图、视觉风格，并把关键布�
             └── references/generation-prompt.md
 ```
 
-也可以直接复制本仓库的 `SKILL.md`、`agents/`、`references/` 到上述 Skill 文件夹。
+也可以直接复制本仓库的 `SKILL.md`、`LICENSE`、`agents/`、`references/` 到上述 Skill 文件夹。
 
 运行环境需要能看图并调用 GPT Image。该 Skill 是指令与提示词，不附带模型服务或 API Key，无额外 Python 依赖。新安装后若会话未发现 Skill，请重新打开项目会话。
 
@@ -70,3 +70,7 @@ Skill 先拆解参考展板的内容、构图、视觉风格，并把关键布�
 ## 方法来源
 
 zhl / airilab 的[展板复刻教程](https://www.xiaohongshu.com/explore/69f54efb000000003502bb4a)。v0.2.0 根据作者确认，采用“参考板提词，再由底图＋提示词直接生成完整展板”的运行逻辑。
+
+## 许可
+
+原创 Skill 指令、提示词和文档采用 [Unlicense](LICENSE)，允许商业使用、修改、出售与再分发，无强制署名或开放修改源码的要求。v0.2.1 仅更新许可及分发说明，生成逻辑与 v0.2.0 相同；旧安装包保留供追溯。本许可不代替图像模型服务条款，也不替使用者取得输入素材的权利。
