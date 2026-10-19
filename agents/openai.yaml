@@ -1,0 +1,4 @@
+interface:
+  display_name: "展板复刻"
+  short_description: "先把参考展板转成提示词，再用建筑底图生成同类版式的完整展板"
+  default_prompt: "使用 $board-layout-replicator 拆解参考展板，再只用我的建筑底图和提示词生成完整展板。"
