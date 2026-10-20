@@ -1,6 +1,6 @@
 ---
 name: board-layout-replicator
-license: Unlicense
+license: MIT
 description: "将建筑参考展板拆解成详细英文提示词，再把建筑底图与提示词交给 GPT Image，生成同类版式的完整展板。适用于展板复刻、建筑排版迁移和效果图生成展板；也可只分析参考并输出提示词。"
 ---
 

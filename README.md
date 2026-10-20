@@ -2,7 +2,7 @@
 
 把喜欢的参考展板拆成提示词，再用自己的建筑底图生成同类版式的完整展板。
 
-**当前版本：v0.2.1 · 2026-10-19 · [Unlicense](LICENSE)**
+**当前版本：v0.2.2 · 2026-10-20 · [MIT](LICENSE)**
 
 ## 工作方式
 
@@ -12,7 +12,7 @@ Skill 先拆解参考展板的内容、构图、视觉风格，并把关键布�
 
 ## 下载与安装
 
-[下载 v0.2.1 安装包](downloads/board-layout-replicator-v0.2.1.zip)
+[下载 v0.2.2 安装包](downloads/board-layout-replicator-v0.2.2.zip)
 
 解压后，将整个 `board-layout-replicator` 文件夹放到项目的 `.agents/skills/` 下：
 
@@ -22,6 +22,7 @@ Skill 先拆解参考展板的内容、构图、视觉风格，并把关键布�
     └── skills/
         └── board-layout-replicator/
             ├── SKILL.md
+            ├── LICENSE
             ├── agents/openai.yaml
             └── references/generation-prompt.md
 ```
@@ -73,4 +74,8 @@ zhl / airilab 的[展板复刻教程](https://www.xiaohongshu.com/explore/69f54e
 
 ## 许可
 
-原创 Skill 指令、提示词和文档采用 [Unlicense](LICENSE)，允许商业使用、修改、出售与再分发，无强制署名或开放修改源码的要求。v0.2.1 仅更新许可及分发说明，生成逻辑与 v0.2.0 相同；旧安装包保留供追溯。本许可不代替图像模型服务条款，也不替使用者取得输入素材的权利。
+原创 Skill 指令、提示词和文档采用 [MIT License](LICENSE)。允许商业使用、修改、出售与再分发；分发副本或实质性部分时，须保留版权声明和许可文本，无需公开修改后的源码。
+
+本版本仅更新许可及分发说明，Skill 的生成逻辑和参考资源保持不变。历史版本曾以 Unlicense 发布；既有授权不因本次变更撤回。旧安装包可从 Git 历史追溯，当前下载入口仅提供 MIT 版本。
+
+本许可针对仓库内容，不代替所使用图像模型服务的条款，也不替使用者取得其自行上传素材的权利。
